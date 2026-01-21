@@ -39,7 +39,7 @@ public class ClickGui
 
     public static ClickGui getInstance() {
         if (INSTANCE == null) {
-            INSTANCE = new waterclient();
+            INSTANCE = new ClickGui();
         }
         return INSTANCE;
     }
