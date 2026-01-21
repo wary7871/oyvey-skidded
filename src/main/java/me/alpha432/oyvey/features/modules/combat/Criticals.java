@@ -10,9 +10,9 @@ import net.minecraft.entity.decoration.EndCrystalEntity;
 import net.minecraft.network.packet.c2s.play.PlayerInteractEntityC2SPacket;
 import net.minecraft.network.packet.c2s.play.PlayerMoveC2SPacket;
 
-public class anchormacro extends Module {
+public class Criticals extends Module {
     private final Timer timer = new Timer();
-    public anchormacro() {
+    public Criticals() {
         super("Criticals", "Makes you anchor 10x faster", Category.COMBAT, true, false, false);
     }
     @Subscribe private void onPacketSend(PacketEvent.Send event) {
